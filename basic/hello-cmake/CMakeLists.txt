@@ -2,9 +2,9 @@
 # cmake --version
 cmake_minimum_required(VERSION 3.22)
 
-# Set the project name
+# Set the project name.
 project(hello_cmake)
 
-# Add an executable
-# ${} inserts the variable value
+# Add an executable.
+# ${} inserts the variable value.
 add_executable(${PROJECT_NAME} main.cpp)
